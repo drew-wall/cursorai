@@ -1,0 +1,91 @@
+### 
+1. Create a functional component called AIList.jsx
+
+2. Create an array of objects with the following properties: url, description, pricing, category
+
+3. Populate the array with the following values for url property
+  - GO2.DESIGNRR.IO
+  - BEAMJOBS.COM
+  - BOOKDADDY.AI
+  - SNOWFLAKE.COM
+  - GET.INTCH.ORG
+  - COURSIV.IO
+  - CAMILLEATTELL.COM
+  - JOBHIRE.AI
+  - SKOOL.COM/GAMES
+  - WWW.FLEXXABLE.COM
+  - TECHPRESSO.CO
+  - KINDLEPUBLISHINGINCOME.COM
+  - WEBCLASS.AI
+  - COMMISSIONHERO.COM
+  - SUPERHUMAN.AI
+  - ARTSPACE.AI
+  - TECHPRESSO.CO
+  - SUPERHUMAN.AI
+  - THERUNDOWN.AI
+  - FPAWORKSHOP.COM
+  - BOOKDADDY.AI
+  - JOINSUPERHUMAN.IO
+  - CODDY.TECH
+  - CURIOUSITY.AI
+  - OPENROUTER.AI
+  - CREWAI.COM
+  - OPENAI.COM
+  - FAL.AI
+  - ANTHROPIC.COM
+  - REPLIT.COM
+  - CHATGPT.COM
+  - CLAUDE.COM
+ - INSTADOODLE.COM
+ - INVIDEO.IO
+ - SYLLABY.IO
+ - ZENFY.AC
+ - SONGER.CO
+ - AIVIDEOBUILDER.COM
+ - DEAL.AI
+ - GO.ACTIVATEPOWERAI.COM
+ - SPEECHELO.COM
+ - VYOND.COM
+ - LLAMA.COM
+ - GEMINI.GOOGLE.COM
+ - PERPLEXITY.AI
+ - SYNTHESIA.IO
+ - ELEVENLABS.IO
+ - MISTRAL.AI
+ - MIDJOURNEY.COM
+ - PIKA.ART
+ - RUNWAYML.COM
+ - HUGGINGFACE.CO
+ - GAMMA.APP
+ - JASPER.AI
+ - CURSOR.COM
+ - VO.DEV
+ - V0.DEV
+ - CASSIDYAI.COM
+ - MULTION.AI
+ - AGEN.CY
+ - AGENT.AI
+ - IMBUE.COM
+ - PUBLISHING.COM
+ - DEVIN.AI
+ - BOLT.NEW
+ COMMISSIONHERO.COM
+AICOACHES.IO
+REVOICER.COM
+APPSUMO.COM
+VOXIA.AI
+SYNTHFLOW.AI
+GO.PUBLISHING.COM
+GET.AMINOS.AI
+AIBOTSUMMIT.COM
+COURSERA.ORG
+GO.ACTIVATEPOWERAI.COM
+MYSTYLUS.AI
+LEARN.DARIUSLUKAS.ACADEMY
+DATAANNOTATION.TECH
+COLLECTION.AUTHORITY-AI.COM
+NETLIFY.COM
+
+4. For each url property in the array, get detailed information about the company from the internet and populate the description property with the information you find. Also, populate the pricing and category properties with the information you find.
+
+5. Create a list of the objects in the array in the UI using UL and LI tags.

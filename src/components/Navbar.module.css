@@ -1,0 +1,65 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #2196f3;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+  margin-left: 15px;
+  margin-right: 60px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  padding-right: 40px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.activeLink {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+} 
