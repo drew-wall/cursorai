@@ -43,8 +43,10 @@
 .linkList {
   list-style: none;
   padding-left: 10px;
-  margin-top: 4px;
+  margin-top: 0;
   margin-bottom: 4px;
+  padding-bottom: 10px;
+  padding-top: 0;
 }
 
 .linkList li {
@@ -107,10 +109,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 4px;
   position: relative;
   background-color: #f8f9fa;
   z-index: 2;
+  padding-bottom: 0;
 }
 
 .dropdown {
@@ -169,8 +172,14 @@
 
 .categoriesContainer {
   overflow-y: auto;
-  height: 100%;
+  height: calc(100% - 40px);
   padding-right: 10px;
   margin-right: -10px;
+  padding-bottom: 20px;
+  margin-top: -4px;
+}
+
+.linkList li:first-child {
+  margin-top: 0;
 }
  

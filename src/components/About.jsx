@@ -6,39 +6,16 @@ export default function About() {
       <h2>About This Project</h2>
       
       <section>
-        <h3>Developer Information</h3>
-        <div className="contact-info">
-          <p><strong>Name:</strong> Drew Wall</p>
-          <p>
-            <strong>Email:</strong> 
-            <a href="mailto:chelandrew94@gmail.com"> chelandrew94@gmail.com</a>
-          </p>
-          <p>
-            <strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/drewwall/" target="_blank" rel="noopener noreferrer">
-              @drewwall
-            </a>
-          </p>
-          <p>
-            <strong>GitHub:</strong> 
-            <a href="https://github.com/drew-wall/cursorai" target="_blank" rel="noopener noreferrer">
-              @drew-wall/cursorai
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <h3>Built with Cursor AI - using reactjs</h3>
+        <h3>Built with Cursor AI - using vite and reactjs</h3>
         <p>
-          This website was created entirely using Cursor AI IDE (<a href="https://cursor.com">cursor.com</a>), a revolutionary code editor 
+          This website was created entirely using Cursor AI IDE (<a href="https://cursor.com" target="_blank">cursor.com</a>), a revolutionary code editor 
           that integrates advanced AI capabilities directly into the development workflow. Every component, 
           style, and feature of this website was generated and refined using Cursor AI&apos;s powerful features.
         </p>
         <p>
           <strong>All content across every page of this website - including text, descriptions, terminology definitions, 
           and technical explanations - was generated using AI features. No manual content entry was required during 
-          the development process.</strong>
+          the development process, which took about 18 hours and produced over 1500 lines of code and css.</strong>
         </p>
       </section>
 
@@ -97,6 +74,29 @@ export default function About() {
           <li>Seamless integration with development workflow</li>
           <li>Comprehensive documentation assistance</li>
         </ul>
+      </section>
+
+      <section>
+        <h3>Developer Information</h3>
+        <div className="contact-info">
+          <p><strong>Name:</strong> Drew Wall</p>
+          <p>
+            <strong>Email:</strong> 
+            <a href="mailto:chelandrew94@gmail.com"> chelandrew94@gmail.com</a>
+          </p>
+          <p>
+            <strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/drewwall/" target="_blank" rel="noopener noreferrer">
+              @drewwall
+            </a>
+          </p>
+          <p>
+            <strong>GitHub:</strong> 
+            <a href="https://github.com/drew-wall/cursorai" target="_blank" rel="noopener noreferrer">
+              @drew-wall/cursorai
+            </a>
+          </p>
+        </div>
       </section>
     </div>
   );
