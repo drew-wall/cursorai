@@ -1,7 +1,7 @@
 ### 
-1. Create a functional component called AIList.jsx
+1. Create a file named aiData.js in the data folder
 
-2. Create an array of objects with the following properties: url, description, pricing, category
+2. Create an array named aiData of objects with the following properties: url, description, pricing, category
 
 3. Populate the array with the following values for url property
   - GO2.DESIGNRR.IO
@@ -69,23 +69,21 @@
  - PUBLISHING.COM
  - DEVIN.AI
  - BOLT.NEW
- COMMISSIONHERO.COM
-AICOACHES.IO
-REVOICER.COM
-APPSUMO.COM
-VOXIA.AI
-SYNTHFLOW.AI
-GO.PUBLISHING.COM
-GET.AMINOS.AI
-AIBOTSUMMIT.COM
-COURSERA.ORG
-GO.ACTIVATEPOWERAI.COM
-MYSTYLUS.AI
-LEARN.DARIUSLUKAS.ACADEMY
-DATAANNOTATION.TECH
-COLLECTION.AUTHORITY-AI.COM
-NETLIFY.COM
+ - COMMISSIONHERO.COM
+ - AICOACHES.IO
+ - REVOICER.COM
+ - APPSUMO.COM
+ - VOXIA.AI
+ - SYNTHFLOW.AI
+ - GO.PUBLISHING.COM
+ - GET.AMINOS.AI
+ - AIBOTSUMMIT.COM
+ - COURSERA.ORG
+ - GO.ACTIVATEPOWERAI.COM
+ - MYSTYLUS.AI
+ - LEARN.DARIUSLUKAS.ACADEMY
+ - DATAANNOTATION.TECH
+ - COLLECTION.AUTHORITY-AI.COM
+ - NETLIFY.COM
 
 4. For each url property in the array, get detailed information about the company from the internet and populate the description property with the information you find. Also, populate the pricing and category properties with the information you find.
-
-5. Create a list of the objects in the array in the UI using UL and LI tags.
